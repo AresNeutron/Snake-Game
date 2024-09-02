@@ -1,0 +1,60 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "VT323", monospace;
+    background-color: rgb(80, 77, 77);
+}
+#outro{
+    width: 496px;
+    height: 542px;
+    margin: 50px auto 20px auto;
+}
+#info{
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+}
+#info h2{
+    font-size: 36px;
+    line-height: 0px;
+    margin-top: 18px;
+}
+#border1{
+    border:10px solid rgb(91, 101, 45);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgb(91, 101, 45) inset ;
+}
+#border2{
+    border: 8px solid rgb(168, 176, 131);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgb(168, 176, 131) inset;
+}
+#border3{
+    border: 30px solid rgb(129, 136, 95);
+    border-radius: 18px;
+    background-color: rgb(190, 196, 163);
+}
+#game{
+    width: 400px;
+    height: 400px;
+    display: none;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+#border3 img{
+    margin:40px 70px 0 68px;
+}
+#border3 h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: -11px;
+}
+#food{
+    border: 5px solid gray;
+    background-color: white;
+}
+.snake{
+    background-color: rgb(47, 41, 41);
+    border: 1px solid black;
+}
